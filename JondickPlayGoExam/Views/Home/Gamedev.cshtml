@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "Game Development";
+}
+
+<h2>List of Enrolled Students</h2>
+
+<table cellpadding="5" cellspacing="15">
+
+    @foreach (string strUsers in ViewBag.GameDevClass)
+    {
+        <tr>
+            <td class="feedback">
+
+                @strUsers
+
+
+            </td>
+        </tr>
+    }
+
+
+</table>
+

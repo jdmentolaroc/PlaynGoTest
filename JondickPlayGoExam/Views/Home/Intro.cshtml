@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Subject List";
+}
+
+<h2>List of Subjects Offered 2016 2nd Sem</h2>
+
+<table cellpadding="5" cellspacing="15">
+
+    @foreach (string strUsers in ViewBag.SubList)
+    {
+        <tr>
+            <td class="feedback">
+
+                @strUsers
+
+
+            </td>
+        </tr>
+    }
+
+
+</table>
